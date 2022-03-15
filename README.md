@@ -1,16 +1,4 @@
-# ExpertFinder
-
-Steps to deply on Google Cloud Run
-
-- Command to build the application
-```
-gcloud builds submit --tag gcr.io/hybrid-chariot-320806/firstapp  --project=hybrid-chariot-320806
-```
-- Command to deploy the application
-```
-gcloud run deploy --image gcr.io/hybrid-chariot-320806/firstapp --platform managed  --project=hybrid-chariot-320806 --allow-unauthenticated
-```
-_________________________________________________________
+# Neral Expert Finder (NEF) Streamlit Application
 
 Steps to run the app locally:
 ```
@@ -19,7 +7,7 @@ git clone https://github.com/sancharidan/ExpertFinder.git
 cd ExpertFinder
 
 # create python environment
-conda create --name expertfinder python=3.8.8
+conda create --name expertfinder python=3.7
 
 # activate conda environment
 conda activate expertfinder
