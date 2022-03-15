@@ -1,4 +1,4 @@
-# Neral Expert Finder (NEF) Streamlit Application
+# Neural Expert Finder (NEF) Streamlit Application
 
 Steps to run the app locally:
 ```
